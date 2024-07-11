@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px;
+}
+.container .header {
+  margin-bottom: 30px;
+}
+.container .header .full-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.container .header .full-name .first-name {
+  font-weight: 700;
+}
+.container .header .full-name .last-name {
+  font-weight: 300;
+}
+.container .header .full-name .separator {
+  height: 15px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+.container .header .full-name .position {
+  display: inline-block;
+  margin-right: 10px;
+}
+.container .header .contact-info {
+  margin-bottom: 20px;
+}
+.container .header .contact-info .email {
+  color: #999;
+  font-weight: 300;
+}
+.container .header .contact-info .phone {
+  color: #999;
+  font-weight: 300;
+}
+.container .header .contact-info .separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+.container .header .about .description {
+  font-size: 14px;
+  line-height: 1;
+}
+.container .details {
+  line-height: 20px;
+}
+.container .details .section {
+  margin-bottom: 20px;
+}
+.container .details .section:last-of-type {
+  margin-bottom: 0px;
+}
+.container .details .section-title {
+  letter-spacing: 2px;
+  color: #54AFE4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.container .details .section-list .section-list-item {
+  margin-bottom: 20px;
+}
+.container .details .section-list .section-list-item .job {
+  font-size: 14px;
+  font-weight: bold;
+}
+.container .details .section-list .section-list-item .separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+.container .details .section-list .section-list-item .college {
+  font-weight: bold;
+}
+.container .details .section-list .section-list-item:last-of-type {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
